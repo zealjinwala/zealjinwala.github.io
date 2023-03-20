@@ -401,6 +401,7 @@ section {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -488,9 +489,37 @@ section {
   background-size: cover;
   min-height: 300px;
 }
+.research .content {
+  margin-top: 20px;
+}
+.research .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #3b434a;
+  text-transform: uppercase;
+}
+
+.research .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.research .content ul li {
+  padding-bottom: 10px;
+}
+
+.research .content ul i {
+  font-size: 20px;
+  padding-right: 2px;
+  color: #ffb727;
+}
+
+.research .content p:last-child {
+  margin-bottom: 0;
+}
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .skills-content {
   margin-top: 30px;

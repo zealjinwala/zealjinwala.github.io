@@ -22,9 +22,9 @@ repository               : "zealjinwala/zealjinwala.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Zeal"
+  name             : #"Zeal"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : #"Short biography for the left-hand sidebar"
   location         : "Philadelphia"
   employer         : "University of Pennsylvania"
   uri              : # URL

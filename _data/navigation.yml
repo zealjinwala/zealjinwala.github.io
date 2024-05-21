@@ -4,11 +4,13 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Teaching"
+    url: /teaching/    
+    
   - title: "CV"
     url: /files/ZealJinwala_CV.pdf
     
-  - title: "Teaching"
-    url: /teaching/    
+
     
 
 

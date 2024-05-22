@@ -7,11 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-🏠 I am a computational research scientist based in Philadelphia, PA. 
-
-🔎 My current research is focused on investigating the genetic architecture of substance use and psychiatric disorders by leveraging electronic health record-linked biobank data. 
-
-🧬 I am interested in a wide range of applications and research problems in precision medicine including drug repurposing, integrative omics and developing tools for clinical decision making.
+I am a computational research scientist based in Philadelphia, PA. My current research is focused on investigating the genetic architecture of substance use and psychiatric disorders by leveraging electronic health record-linked biobank data. I am interested in a wide range of applications and research problems in precision medicine including drug repurposing, integrative omics and developing tools for clinical decision making.
 
 
 

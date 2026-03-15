@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m a Ph.D student at Washington University in St. Louis.
+I’m a Ph.D student in Computational and Systems Biology at Washington University in St. Louis.
 
 I study statistical and psychiatric genetics using global population data. 
 

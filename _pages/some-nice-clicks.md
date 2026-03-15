@@ -19,8 +19,8 @@ gallery:
     alt: "philly_sky"
   - image_path: clicks/some_hike.jpeg
     alt: "some_hike"
-  - image_path: clicks/sunset_df.jpeg
-    alt: "sunset_df"
+  - image_path: clicks/sunset_sf.jpeg
+    alt: "sunset_sf"
   - image_path: clicks/sf_coastline.jpeg
     alt: "sf_coastline"
   - image_path: clicks/pikes_peak_1.jpeg
@@ -34,36 +34,45 @@ gallery:
 ---
 
 <style>
-  /* Page-local gallery override: non-uniform wrapped layout with fixed 0.5in spacing. */
-  .page__content figure.clicks-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 0.5in;
+  /* Page-local gallery override: masonry columns for mixed portrait/landscape images. */
+  .page__content figure.clicks-grid,
+  .page__content figure.clicks-grid.third,
+  .page__content figure.clicks-grid.half {
+    display: block;
     margin: 1.25rem 0;
+    column-gap: 1rem;
+    column-width: 260px;
   }
 
-  .page__content figure.clicks-grid > a {
-    display: block;
-    width: auto;
+  .page__content figure.clicks-grid > a,
+  .page__content figure.clicks-grid > img {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 1rem;
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 
   .page__content figure.clicks-grid img {
-    width: auto;
+    display: block;
+    width: 100%;
     height: auto;
     margin: 0;
-    display: block;
   }
-  
+
   .page__content figure.clicks-grid figcaption {
+    display: block;
     width: 100%;
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 
   @media (max-width: 600px) {
-    .page__content figure.clicks-grid img {
-      width: 100%;
-      height: auto;
+    .page__content figure.clicks-grid,
+    .page__content figure.clicks-grid.third,
+    .page__content figure.clicks-grid.half {
+      column-count: 1;
+      column-width: auto;
     }
   }
 </style>

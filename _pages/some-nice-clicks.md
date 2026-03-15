@@ -16,38 +16,35 @@ gallery:
 ---
 
 <style>
-  /* Page-local gallery override: spacing and wrapping adapt to each image's natural size. */
-  .page__content figure.clicks-fluid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 0.85rem;
+  /* Page-local gallery override: responsive grid with fixed 0.5in spacing. */
+  .page__content figure.clicks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.5in;
     margin: 1.25rem 0;
   }
 
-  .page__content figure.clicks-fluid > a,
-  .page__content figure.clicks-fluid > img {
-    width: auto;
+  .page__content figure.clicks-grid > a {
+    display: block;
   }
 
-  .page__content figure.clicks-fluid img {
-    width: auto;
-    max-width: min(100%, 420px);
-    height: auto;
+  .page__content figure.clicks-grid img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
     margin: 0;
     display: block;
   }
   
-  .page__content figure.clicks-fluid figcaption {
-    width: 100%;
+  .page__content figure.clicks-grid figcaption {
+    grid-column: 1 / -1;
   }
 
   @media (max-width: 600px) {
-    .page__content figure.clicks-fluid img {
-      max-width: 100%;
+    .page__content figure.clicks-grid {
+      grid-template-columns: 1fr;
     }
   }
 </style>
 
-{% include gallery class="clicks-fluid" %}
+{% include gallery class="clicks-grid" %}

@@ -16,33 +16,36 @@ gallery:
 ---
 
 <style>
-  /* Page-local gallery override: responsive grid with fixed 0.5in spacing. */
+  /* Page-local gallery override: non-uniform wrapped layout with fixed 0.5in spacing. */
   .page__content figure.clicks-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
     gap: 0.5in;
     margin: 1.25rem 0;
   }
 
   .page__content figure.clicks-grid > a {
     display: block;
+    width: auto;
   }
 
   .page__content figure.clicks-grid img {
-    width: 100%;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
+    width: auto;
+    height: auto;
     margin: 0;
     display: block;
   }
   
   .page__content figure.clicks-grid figcaption {
-    grid-column: 1 / -1;
+    width: 100%;
   }
 
   @media (max-width: 600px) {
-    .page__content figure.clicks-grid {
-      grid-template-columns: 1fr;
+    .page__content figure.clicks-grid img {
+      width: 100%;
+      height: auto;
     }
   }
 </style>

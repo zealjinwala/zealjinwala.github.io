@@ -34,45 +34,47 @@ gallery:
 ---
 
 <style>
-  /* Page-local gallery override: masonry columns for mixed portrait/landscape images. */
+  /* Page-local gallery override: preserve natural image aspect/size with wrapped rows. */
   .page__content figure.clicks-grid,
   .page__content figure.clicks-grid.third,
   .page__content figure.clicks-grid.half {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
     margin: 1.25rem 0;
-    column-gap: 1rem;
-    column-width: 260px;
+    gap: 1rem;
   }
 
   .page__content figure.clicks-grid > a,
   .page__content figure.clicks-grid > img {
-    display: inline-block;
-    width: 100%;
-    margin: 0 0 1rem;
-    break-inside: avoid;
-    page-break-inside: avoid;
+    display: block;
+    width: auto;
+    margin: 0;
   }
 
   .page__content figure.clicks-grid img {
     display: block;
-    width: 100%;
+    width: auto;
     height: auto;
+    max-width: min(100%, 420px);
     margin: 0;
   }
 
   .page__content figure.clicks-grid figcaption {
     display: block;
     width: 100%;
-    break-inside: avoid;
-    page-break-inside: avoid;
   }
 
   @media (max-width: 600px) {
     .page__content figure.clicks-grid,
     .page__content figure.clicks-grid.third,
     .page__content figure.clicks-grid.half {
-      column-count: 1;
-      column-width: auto;
+      gap: 0.75rem;
+    }
+
+    .page__content figure.clicks-grid img {
+      max-width: 100%;
     }
   }
 </style>

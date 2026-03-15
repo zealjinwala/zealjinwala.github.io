@@ -3,7 +3,7 @@ title: "Some Nice Clicks"
 permalink: /some-nice-clicks/
 author_profile: true
 gallery:
-  - image_path: clicks/photo1.jpg
+  - image_path: clicks/2CA23EB7-9031-4B1C-9DB5-E15231724674_1_105_c.jpeg
     alt: "Photo 1"
   - image_path: clicks/photo2.jpg
     alt: "Photo 2"

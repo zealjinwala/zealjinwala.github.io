@@ -22,17 +22,20 @@ Lately, I've been thinking about: \\
 • social science genomics \\
 • sequencing, semiconductors, and the economics in between
 
-What I'm reading: \\
-      <!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->
-      <style type="text/css" media="screen">
+What I'm reading:
+
+<!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->
+<style type="text/css" media="screen">
   .gr_custom_container_1773545005 {
     /* customize your Goodreads widget container here*/
     border: 1px solid gray;
-    border-radius:10px;
+    border-radius: 10px;
     padding: 10px 5px 10px 5px;
     background-color: #FFFFFF;
     color: #000000;
-    width: 300px
+    width: 300px;
+    max-width: 100%;
+    box-sizing: border-box;
   }
   .gr_custom_header_1773545005 {
     /* customize your Goodreads header here*/
@@ -40,7 +43,7 @@ What I'm reading: \\
     width: 100%;
     margin-bottom: 5px;
     text-align: center;
-    font-size: 120%
+    font-size: 120%;
   }
   .gr_custom_each_container_1773545005 {
     /* customize each individual book container here */
@@ -55,9 +58,9 @@ What I'm reading: \\
     /* customize your book covers here */
     overflow: hidden;
     height: 60px;
-      float: left;
-      margin-right: 4px;
-      width: 39px;
+    float: left;
+    margin-right: 4px;
+    width: 39px;
   }
   .gr_custom_author_1773545005 {
     /* customize your author names here */
@@ -74,61 +77,60 @@ What I'm reading: \\
   }
 </style>
 
-      <div id="gr_custom_widget_1773545005">
-          <div class="gr_custom_container_1773545005">
+<div id="gr_custom_widget_1773545005">
+  <div class="gr_custom_container_1773545005">
     <h2 class="gr_custom_header_1773545005">
-    <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/175590847-zeal-jinwala?shelf=read&amp;utm_medium=api&amp;utm_source=custom_widget">Zeal&#39;s bookshelf: read</a>
+      <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/175590847-zeal-jinwala?shelf=read&amp;utm_medium=api&amp;utm_source=custom_widget">Zeal&#39;s bookshelf: read</a>
     </h2>
-      <div class="gr_custom_each_container_1773545005">
-          <div class="gr_custom_book_container_1773545005">
-            <a title="The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race" rel="nofollow" href="https://www.goodreads.com/review/show/6612356355?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610894755l/54968118._SY75_.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_1773545005">
-            <span class=" staticStars notranslate" title="really liked it"><img alt="really liked it" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_1773545005">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/6612356355?utm_medium=api&amp;utm_source=custom_widget">The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race</a>
-          </div>
-          <div class="gr_custom_author_1773545005">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/7111.Walter_Isaacson">Walter Isaacson</a>
-          </div>
+    <div class="gr_custom_each_container_1773545005">
+      <div class="gr_custom_book_container_1773545005">
+        <a title="The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race" rel="nofollow" href="https://www.goodreads.com/review/show/6612356355?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610894755l/54968118._SY75_.jpg" /></a>
       </div>
-      <div class="gr_custom_each_container_1773545005">
-          <div class="gr_custom_book_container_1773545005">
-            <a title="First to the Front: The Untold Story of Dickey Chapelle, Trailblazing Female War Correspondent" rel="nofollow" href="https://www.goodreads.com/review/show/6628547235?utm_medium=api&amp;utm_source=custom_widget"><img alt="First to the Front: The Untold Story of Dickey Chapelle, Trailblazing Female War Correspondent" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663128782l/61884980._SY75_.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_1773545005">
-            <span class=" staticStars notranslate"><img src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_1773545005">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/6628547235?utm_medium=api&amp;utm_source=custom_widget">First to the Front: The Untold Story of Dickey Chapelle, Trailblazing Female War Correspondent</a>
-          </div>
-          <div class="gr_custom_author_1773545005">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/22656300.Lorissa_Rinehart">Lorissa Rinehart</a>
-          </div>
+      <div class="gr_custom_rating_1773545005">
+        <span class=" staticStars notranslate" title="really liked it"><img alt="really liked it" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /></span>
       </div>
-      <div class="gr_custom_each_container_1773545005">
-          <div class="gr_custom_book_container_1773545005">
-            <a title="Never Split the Difference: Negotiating as if Your Life Depended on It" rel="nofollow" href="https://www.goodreads.com/review/show/7135167324?utm_medium=api&amp;utm_source=custom_widget"><img alt="Never Split the Difference: Negotiating as if Your Life Depended on It" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1680014152l/123857637._SY75_.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_1773545005">
-            <span class=" staticStars notranslate"><img src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_1773545005">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/7135167324?utm_medium=api&amp;utm_source=custom_widget">Never Split the Difference: Negotiating as if Your Life Depended on It</a>
-          </div>
-          <div class="gr_custom_author_1773545005">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/5525291.Chris_Voss">Chris Voss</a>
-          </div>
+      <div class="gr_custom_title_1773545005">
+        <a rel="nofollow" href="https://www.goodreads.com/review/show/6612356355?utm_medium=api&amp;utm_source=custom_widget">The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race</a>
       </div>
-  <br style="clear: both"/>
-  <center>
-    <a rel="nofollow" href="https://www.goodreads.com/"><img alt="goodreads.com" style="border:0" src="https://s.gr-assets.com/images/widget/widget_logo.gif" /></a>
-  </center>
-  <noscript>
-    Share <a rel="nofollow" href="https://www.goodreads.com/">book reviews</a> and ratings with Zeal, and even join a <a rel="nofollow" href="https://www.goodreads.com/group">book club</a> on Goodreads.
-  </noscript>
+      <div class="gr_custom_author_1773545005">
+        by <a rel="nofollow" href="https://www.goodreads.com/author/show/7111.Walter_Isaacson">Walter Isaacson</a>
+      </div>
+    </div>
+    <div class="gr_custom_each_container_1773545005">
+      <div class="gr_custom_book_container_1773545005">
+        <a title="First to the Front: The Untold Story of Dickey Chapelle, Trailblazing Female War Correspondent" rel="nofollow" href="https://www.goodreads.com/review/show/6628547235?utm_medium=api&amp;utm_source=custom_widget"><img alt="First to the Front: The Untold Story of Dickey Chapelle, Trailblazing Female War Correspondent" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663128782l/61884980._SY75_.jpg" /></a>
+      </div>
+      <div class="gr_custom_rating_1773545005">
+        <span class=" staticStars notranslate"><img src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /></span>
+      </div>
+      <div class="gr_custom_title_1773545005">
+        <a rel="nofollow" href="https://www.goodreads.com/review/show/6628547235?utm_medium=api&amp;utm_source=custom_widget">First to the Front: The Untold Story of Dickey Chapelle, Trailblazing Female War Correspondent</a>
+      </div>
+      <div class="gr_custom_author_1773545005">
+        by <a rel="nofollow" href="https://www.goodreads.com/author/show/22656300.Lorissa_Rinehart">Lorissa Rinehart</a>
+      </div>
+    </div>
+    <div class="gr_custom_each_container_1773545005">
+      <div class="gr_custom_book_container_1773545005">
+        <a title="Never Split the Difference: Negotiating as if Your Life Depended on It" rel="nofollow" href="https://www.goodreads.com/review/show/7135167324?utm_medium=api&amp;utm_source=custom_widget"><img alt="Never Split the Difference: Negotiating as if Your Life Depended on It" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1680014152l/123857637._SY75_.jpg" /></a>
+      </div>
+      <div class="gr_custom_rating_1773545005">
+        <span class=" staticStars notranslate"><img src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /></span>
+      </div>
+      <div class="gr_custom_title_1773545005">
+        <a rel="nofollow" href="https://www.goodreads.com/review/show/7135167324?utm_medium=api&amp;utm_source=custom_widget">Never Split the Difference: Negotiating as if Your Life Depended on It</a>
+      </div>
+      <div class="gr_custom_author_1773545005">
+        by <a rel="nofollow" href="https://www.goodreads.com/author/show/5525291.Chris_Voss">Chris Voss</a>
+      </div>
+    </div>
+    <br style="clear: both" />
+    <p style="text-align: center; margin: 0;">
+      <a rel="nofollow" href="https://www.goodreads.com/"><img alt="goodreads.com" style="border: 0" src="https://s.gr-assets.com/images/widget/widget_logo.gif" /></a>
+    </p>
+    <noscript>
+      Share <a rel="nofollow" href="https://www.goodreads.com/">book reviews</a> and ratings with Zeal, and even join a <a rel="nofollow" href="https://www.goodreads.com/group">book club</a> on Goodreads.
+    </noscript>
   </div>
-
-      </div>
-      <script src="https://www.goodreads.com/review/custom_widget/175590847.Zeal's%20bookshelf:%20read?cover_position=left&cover_size=small&num_books=3&order=a&shelf=read&show_author=1&show_cover=1&show_rating=1&show_review=1&show_tags=1&show_title=1&sort=date_added&widget_bg_color=FFFFFF&widget_bg_transparent=&widget_border_width=1&widget_id=1773545005&widget_text_color=000000&widget_title_size=medium&widget_width=medium" type="text/javascript" charset="utf-8"></script>
+</div>
+<script src="https://www.goodreads.com/review/custom_widget/175590847.Zeal's%20bookshelf:%20read?cover_position=left&cover_size=small&num_books=3&order=a&shelf=read&show_author=1&show_cover=1&show_rating=1&show_review=1&show_tags=1&show_title=1&sort=date_added&widget_bg_color=FFFFFF&widget_bg_transparent=&widget_border_width=1&widget_id=1773545005&widget_text_color=000000&widget_title_size=medium&widget_width=medium" type="text/javascript" charset="utf-8"></script>

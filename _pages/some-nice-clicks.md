@@ -40,7 +40,7 @@ gallery:
   .page__content figure.clicks-grid.half {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     margin: 1.25rem 0;
     gap: 1rem;
@@ -49,15 +49,16 @@ gallery:
   .page__content figure.clicks-grid > a,
   .page__content figure.clicks-grid > img {
     display: block;
-    width: auto;
+    flex: 1 1 320px;
+    min-width: 220px;
     margin: 0;
   }
 
   .page__content figure.clicks-grid img {
     display: block;
-    width: auto;
+    width: 100%;
     height: auto;
-    max-width: min(100%, 420px);
+    max-width: 100%;
     margin: 0;
   }
 

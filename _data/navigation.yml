@@ -4,11 +4,11 @@ main:
   # - title: "Publications"
   #   url: /publications/
 
-  - title: "Blog"
+  - title: "thinkpad"
     url: /year-archive/
 
-  - title: "CV"
-    # url: /files/ZealJinwala_CV.pdf
+  - title: "some nice clicks"
+    url: /some-nice-clicks/
 
 # - title: "Teaching"
 #   url: /teaching/    

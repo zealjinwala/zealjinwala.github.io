@@ -8,7 +8,7 @@ main:
     url: /year-archive/
 
   - title: "CV"
-    url: /files/ZealJinwala_CV.pdf
+    # url: /files/ZealJinwala_CV.pdf
 
 # - title: "Teaching"
 #   url: /teaching/    

@@ -3,11 +3,15 @@ title: "Some Nice Clicks"
 permalink: /some-nice-clicks/
 author_profile: true
 gallery:
-  - image_path: clicks/2CA23EB7-9031-4B1C-9DB5-E15231724674_1_105_c.jpeg
+  - image_path: clicks/camping_1.jpeg
     alt: "Photo 1"
-  - image_path: clicks/photo2.jpg
+  - image_path: clicks/forest_park_run_1.jpeg
     alt: "Photo 2"
-  - image_path: clicks/photo3.jpg
+  - image_path: clicks/sf_trip_1.jpeg
+    alt: "Photo 3"
+  - image_path: clicks/ski_trip_1.jpeg
+    alt: "Photo 3"
+  - image_path: clicks/ski_trip_2.jpeg
     alt: "Photo 3"
 ---
 

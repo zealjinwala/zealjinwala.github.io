@@ -13,14 +13,14 @@ I study statistical and psychiatric genetics using global population data.
 
 I'm interested in questions at the intersection of mental health and precision medicine —how we can use existing tools to better understand risk, treatment, and outcomes.
 
-Lately, I've been thinking about:
-• psychiatric multimorbidity
-• social science genomics
-• environmental modulation of genetic risk
-• tools that help clinicians make better decisions
-• drug repurposing
-• social science genomics
-• sequencing, semiconductors, and the economics in between
+Lately, I've been thinking about: \\
+• psychiatric multimorbidity \\
+• social science genomics \\
+• environmental modulation of genetic risk \\
+• tools that help clinicians make better decisions \\
+• drug repurposing \\ 
+• social science genomics \\ 
+• sequencing, semiconductors, and the economics in between \\
 
 
 

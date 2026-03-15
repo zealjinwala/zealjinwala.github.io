@@ -34,19 +34,22 @@ gallery:
 ---
 
 <style>
-  /* Page-local gallery override: preserve natural image aspect/size with wrapped rows. */
+  /* Page-local gallery override: enforce clear row/column gaps in wrapped layout. */
   .page__content figure.clicks-grid,
   .page__content figure.clicks-grid.third,
   .page__content figure.clicks-grid.half {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 1rem;
     margin: 1.25rem 0;
   }
 
   .page__content figure.clicks-grid > a,
   .page__content figure.clicks-grid > img {
     display: block;
-    width: 100%;
-    margin: 0 0 0.5rem;
+    width: calc(33.3333% - 0.6667rem);
+    margin: 0;
   }
 
   .page__content figure.clicks-grid img {
@@ -62,7 +65,19 @@ gallery:
     width: 100%;
   }
 
+  @media (max-width: 900px) {
+    .page__content figure.clicks-grid > a,
+    .page__content figure.clicks-grid > img {
+      width: calc(50% - 0.5rem);
+    }
+  }
+
   @media (max-width: 600px) {
+    .page__content figure.clicks-grid > a,
+    .page__content figure.clicks-grid > img {
+      width: 100%;
+    }
+
     .page__content figure.clicks-grid img {
       max-width: 100%;
     }

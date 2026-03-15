@@ -38,25 +38,20 @@ gallery:
   .page__content figure.clicks-grid,
   .page__content figure.clicks-grid.third,
   .page__content figure.clicks-grid.half {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+    display: block;
     margin: 1.25rem 0;
-    gap: 1rem;
   }
 
   .page__content figure.clicks-grid > a,
   .page__content figure.clicks-grid > img {
     display: block;
-    flex: 1 1 320px;
-    min-width: 220px;
-    margin: 0;
+    width: 100%;
+    margin: 0 0 1rem;
   }
 
   .page__content figure.clicks-grid img {
     display: block;
-    width: 100%;
+    width: auto;
     height: auto;
     max-width: 100%;
     margin: 0;
@@ -68,12 +63,6 @@ gallery:
   }
 
   @media (max-width: 600px) {
-    .page__content figure.clicks-grid,
-    .page__content figure.clicks-grid.third,
-    .page__content figure.clicks-grid.half {
-      gap: 0.75rem;
-    }
-
     .page__content figure.clicks-grid img {
       max-width: 100%;
     }

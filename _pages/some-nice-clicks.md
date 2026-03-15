@@ -1,5 +1,5 @@
 ---
-title: "Some Nice Clicks"
+# title:
 permalink: /some-nice-clicks/
 author_profile: true
 gallery:
@@ -12,6 +12,24 @@ gallery:
   - image_path: clicks/ski_trip_1.jpeg
     alt: "Photo 3"
   - image_path: clicks/ski_trip_2.jpeg
+    alt: "Photo 3"
+  - image_path: clicks/balloon_fest.jpeg
+    alt: "Photo 3"
+  - image_path: clicks/philly_sky.jpeg
+    alt: "Photo 3"
+  - image_path: clicks/some_hike.jpeg
+    alt: "Photo 3"
+  - image_path: clicks/sunset_df.jpeg
+    alt: "Photo 3"
+  - image_path: clicks/sf_coastline.jpeg
+    alt: "Photo 3"
+  - image_path: clicks/pikes_peak_1.jpeg
+    alt: "Photo 3"
+  - image_path: clicks/pikes_peak_2.jpeg
+    alt: "Photo 3"
+  - image_path: clicks/philly_sunset.jpeg
+    alt: "Photo 3"
+  - image_path: clicks/philly_sunset_2.jpeg
     alt: "Photo 3"
 ---
 

@@ -1,13 +1,24 @@
 ---
 permalink: /
-title: "👋🏼 Hi, I'm Zeal"
+title: "Hi, I'm Zeal"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am a research data scientist based in Philadelphia, PA. My research is focused on investigating the genetic architecture of substance use and psychiatric disorders by leveraging electronic health record-linked biobank data. I am interested in a wide range of applications and research problems at the intersection of mental health and precision medicine including drug repurposing, integrative omics and developing tools for clinical decision making.
+I’m a phd student at Washington University in St. Louis.
+
+I study statistical and psychiatric genetics using population data. 
+
+I'm interested in questions at the intersection of mental health and precision medicine —how we can use existing tools to better understand risk, treatment, and outcomes.
+
+Lately, I've been thinking about:
+• psychiatric multimorbidity
+• drug repurposing
+• environmental modulation of genetic risk
+• integrative omics
+• tools that help clinicians make better decisions
 
 
 

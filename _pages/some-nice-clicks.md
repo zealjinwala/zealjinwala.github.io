@@ -46,7 +46,7 @@ gallery:
   .page__content figure.clicks-grid > img {
     display: block;
     width: 100%;
-    margin: 0 0 1rem;
+    margin: 0 0 1.5rem;
   }
 
   .page__content figure.clicks-grid img {

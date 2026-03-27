@@ -19,7 +19,6 @@ Lately, I've been thinking about: \\
 • environmental modulation of genetic risk \\
 • tools that help clinicians make better decisions \\
 • drug repurposing \\
-• social science genomics \\
 • sequencing, semiconductors, and the economics in between
 
 <!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->

@@ -55,20 +55,20 @@ $sidebar-link-max-width     : 250px;
    Colors
    ========================================================================== */
 
-$gray                       : #6f7680;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+$gray                       : #aab3bf;
+$dark-gray                  : mix(#fff, $gray, 55%);
+$darker-gray                : mix(#fff, $gray, 35%);
+$light-gray                 : #25303d;
+$lighter-gray               : #1a222c;
 
-$body-color                 : #f5f1ea;
-$background-color           : #f9f7f2;
-$code-background-color      : #eef1f4;
-$code-background-color-dark : #dfe5ea;
-$text-color                 : #1d232b;
-$border-color               : #d8ddd9;
+$body-color                 : #0f141b;
+$background-color           : #151b24;
+$code-background-color      : #1b232d;
+$code-background-color-dark : #111720;
+$text-color                 : #e6edf5;
+$border-color               : #2a3442;
 
-$primary-color              : #4f6476;
+$primary-color              : #88a9c8;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
@@ -81,7 +81,7 @@ $dribbble-color             : #ea4c89;
 $facebook-color             : #3b5998;
 $flickr-color               : #ff0084;
 $foursquare-color           : #0072b1;
-$github-color               : #171516;
+$github-color               : #d2d9e2;
 $google-plus-color          : #dd4b39;
 $instagram-color            : #517fa4;
 $kaggle-color               : #20c0ff;
@@ -102,11 +102,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : #275d8f;
-$link-color-hover           : mix(#000, $link-color, 18%);
-$link-color-visited         : mix(#fff, $link-color, 22%);
-$masthead-link-color        : mix(#000, $primary-color, 10%);
-$masthead-link-color-hover  : mix(#000, $primary-color, 30%);
+$link-color                 : #9cc3eb;
+$link-color-hover           : mix(#fff, $link-color, 14%);
+$link-color-visited         : mix(#fff, $link-color, 28%);
+$masthead-link-color        : $text-color;
+$masthead-link-color-hover  : mix(#fff, $primary-color, 20%);
 
 
 /*

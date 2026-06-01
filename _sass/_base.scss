@@ -11,7 +11,7 @@ body {
   margin: 0;
   padding: $masthead-height 0 0;
   padding-bottom: 9em;
-  background: linear-gradient(180deg, #fbfaf7 0%, #f5f1ea 48%, #f0ebe4 100%);
+  background: linear-gradient(180deg, #111722 0%, #0f141b 48%, #0b1016 100%);
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
@@ -250,8 +250,8 @@ figcaption {
     transition: $global-transition;
 
     &:hover {
-      color: #000;
-      border-bottom-color: #000;
+      color: $text-color;
+      border-bottom-color: $text-color;
     }
   }
 }

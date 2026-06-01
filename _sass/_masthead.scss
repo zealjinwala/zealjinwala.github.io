@@ -4,8 +4,8 @@
 
 .masthead {
   position: fixed;
-  background: rgba($background-color, 0.88);
-  border-bottom: 1px solid rgba($border-color, 0.8);
+  background: rgba($background-color, 0.96);
+  border-bottom: 1px solid rgba($border-color, 0.95);
   backdrop-filter: blur(12px);
   height: $masthead-height;
   top: 0;
@@ -34,6 +34,11 @@
     a {
       text-decoration: none;
       letter-spacing: 0.01em;
+      color: $masthead-link-color;
+
+      &:hover {
+        color: $masthead-link-color-hover;
+      }
     }
   }
 }

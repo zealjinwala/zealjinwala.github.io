@@ -61,8 +61,8 @@
 }
 
 .page__content {
-  --card-bg: rgba(255, 255, 255, 0.72);
-  --card-border: rgba(216, 221, 217, 0.95);
+  --card-bg: rgba(22, 28, 37, 0.92);
+  --card-border: rgba(120, 136, 155, 0.28);
 
   .home-intro {
     max-width: 56rem;
@@ -71,7 +71,7 @@
     p {
       font-size: $type-size-4;
       line-height: 1.75;
-      color: mix(#000, $text-color, 14%);
+      color: mix(#fff, $text-color, 12%);
     }
   }
 
@@ -88,7 +88,7 @@
     padding: 0.45rem 0.8rem;
     border: 1px solid var(--card-border);
     border-radius: 999px;
-    background: rgba(255, 255, 255, 0.72);
+    background: rgba(22, 28, 37, 0.92);
     font-size: $type-size-6;
     font-weight: 600;
     letter-spacing: 0.02em;
@@ -208,7 +208,7 @@
     }
 
     .gr_custom_author_1773594412 {
-      color: mix(#000, $text-color, 42%);
+      color: mix(#fff, $text-color, 34%);
       font-size: $type-size-6;
     }
 

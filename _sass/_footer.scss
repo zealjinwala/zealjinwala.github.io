@@ -20,8 +20,8 @@
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  background: rgba($background-color, 0.92);
-  border-top: 1px solid rgba($border-color, 0.9);
+  background: rgba($background-color, 0.96);
+  border-top: 1px solid rgba($border-color, 0.95);
   backdrop-filter: blur(10px);
 
   footer {
@@ -50,7 +50,7 @@
   .fab,
   .far,
   .fal {
-    color: $primary-color;
+    color: $text-color;
   }
 }
 

@@ -49,9 +49,9 @@ gallery:
     .page__content figure.clicks-grid,
     .page__content figure.clicks-grid.third,
     .page__content figure.clicks-grid.half {
-      width: calc(100% + 8rem);
+      width: calc(100% + 10rem);
       max-width: none;
-      margin-right: -8rem;
+      margin-right: -10rem;
     }
   }
 

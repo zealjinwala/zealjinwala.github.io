@@ -80,13 +80,13 @@ select {
   padding: 0.25em;
   margin-bottom: 0.5em;
   color: $text-color;
-  background-color: #fff;
-  border: 1px solid mix(#fff, #000, 80%);
+  background-color: #1a1f26;
+  border: 1px solid #2c323a;
   border-radius: $border-radius;
   box-shadow: $box-shadow;
 
   &:hover {
-    border-color: mix(#fff, $primary-color, 50%);
+    border-color: $primary-color;
   }
 }
 
@@ -151,7 +151,7 @@ input[type="file"] {
 
 select {
   width: auto;
-  background-color: #fff;
+  background-color: #1a1f26;
 }
 
 select[multiple],
@@ -378,7 +378,7 @@ select:focus {
   padding: 8px 20px;
   display: inline-block;
   font-size: $type-size-6;
-  background-color: #fff;
+  background-color: #1a1f26;
   color: #000;
   border-width: 2px !important;
   border-style: solid !important;

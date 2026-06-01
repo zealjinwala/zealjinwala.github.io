@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi, I'm Zeal"
+title: "Hi :)"
 author_profile: true
 redirect_from: 
   - /about/
@@ -21,12 +21,9 @@ redirect_from:
 </div>
 
 <div class="home-sections">
-  <section class="home-card">
+  <section class="home-card home-focus">
     <h2>Current focus</h2>
     <p>I’m thinking about how genetic, social, and environmental structures overlap in complex disease, and how we can make those patterns easier to study and use.</p>
-  </section>
-
-  <section class="home-card">
     <h2>Lately, I've been thinking about:</h2>
     <ul class="home-list">
       <li>psychiatric multimorbidity</li>

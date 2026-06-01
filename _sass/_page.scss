@@ -107,10 +107,14 @@
   .home-widget {
     padding: 1.25rem 1.3rem;
     border: 1px solid var(--card-border);
-    border-radius: 20px;
+    border-radius: 0;
     background: var(--card-bg);
     box-shadow: $box-shadow;
     backdrop-filter: blur(10px);
+  }
+
+  .home-focus {
+    grid-column: 1 / -1;
   }
 
   .home-card h2,

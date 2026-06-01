@@ -1,9 +1,9 @@
-/* Let photo galleries use more horizontal space on large screens while staying clear of the sidebar. */
+/* Match the photo panel width to the home page text panel. */
 .page__content .gallery,
 .page__content .gallery-grid,
 .page__content .image-gallery {
   width: 100%;
-  max-width: 72rem;
+  max-width: 56rem;
 }
 
 .page__content .gallery img,
@@ -14,13 +14,6 @@
   object-fit: cover;
 }
 
-@media (min-width: 64em) {
-  .page__content .gallery,
-  .page__content .gallery-grid,
-  .page__content .image-gallery {
-    max-width: calc(100vw - 26rem);
-  }
-}
 /* ==========================================================================
    SINGLE PAGE/POST
    ========================================================================== */

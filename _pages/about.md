@@ -10,14 +10,14 @@ redirect_from:
 <div class="home-intro">
   <p>I’m a Ph.D. student in Computational and Systems Biology at Washington University in St. Louis.</p>
 
-  <p>I study statistical and psychiatric genetics. I’m interested in questions at the intersection of mental health and precision medicine, especially how existing tools can better explain risk, treatment, and outcomes.</p>
+  <p>I study statistical genetics. I’m interested in questions at the intersection of mental health and precision medicine, especially how existing tools can better explain risk, treatment, and outcomes.</p>
 </div>
 
 <div class="home-meta">
-  <span class="home-pill">Psychiatric genetics</span>
+  <span class="home-pill">Human Behavior</span>
   <span class="home-pill">Precision medicine</span>
-  <span class="home-pill">Population data</span>
-  <span class="home-pill">Decision support</span>
+  <span class="home-pill">Complex Systems</span>
+  <span class="home-pill">Population genetics</span>
 </div>
 
 <div class="home-sections">

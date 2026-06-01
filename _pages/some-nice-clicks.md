@@ -1,5 +1,5 @@
 ---
-title: "through my lens"
+title: ""
 permalink: /some-nice-clicks/
 author_profile: true
 gallery:

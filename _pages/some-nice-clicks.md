@@ -1,5 +1,5 @@
 ---
-# title:
+title: "some nice clicks"
 permalink: /some-nice-clicks/
 author_profile: true
 gallery:

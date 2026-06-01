@@ -69,8 +69,9 @@
     margin-bottom: 1.5rem;
 
     p {
-      font-size: $type-size-4;
+      font-size: $type-size-5;
       line-height: 1.75;
+      font-weight: normal;
       color: mix(#fff, $text-color, 12%);
     }
   }
@@ -89,18 +90,13 @@
     border: 1px solid var(--card-border);
     border-radius: 999px;
     background: rgba(22, 28, 37, 0.92);
-    font-size: $type-size-6;
-    font-weight: 600;
+    font-size: $type-size-5;
+    font-weight: normal;
     letter-spacing: 0.02em;
   }
 
   .home-sections {
-    display: grid;
-    gap: 1rem;
-
-    @include breakpoint($medium) {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
+    display: block;
   }
 
   .home-card,
@@ -114,16 +110,26 @@
   }
 
   .home-focus {
-    grid-column: 1 / -1;
+    margin-bottom: 1rem;
   }
 
-  .home-card h2,
+  .home-card p,
+  .home-card li,
+  .home-widget p,
+  .home-widget li {
+    margin-top: 0;
+    font-size: $type-size-5;
+    font-weight: normal;
+    line-height: 1.7;
+  }
+
   .home-widget h2 {
     margin-top: 0;
     margin-bottom: 0.6rem;
     padding-bottom: 0;
     border-bottom: 0;
-    font-size: $type-size-4;
+    font-size: $type-size-5;
+    font-weight: normal;
   }
 
   .home-card p:last-child,
@@ -137,11 +143,11 @@
   }
 
   .home-list li {
-    margin-bottom: 0.55rem;
+    margin-bottom: 0.35rem;
   }
 
   .home-reading {
-    grid-column: 1 / -1;
+    margin-top: 0;
   }
 
   .home-widget {

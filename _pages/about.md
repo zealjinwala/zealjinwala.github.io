@@ -22,9 +22,8 @@ redirect_from:
 
 <div class="home-sections">
   <section class="home-card home-focus">
-    <h2>Current focus</h2>
     <p>I’m thinking about how genetic, social, and environmental structures overlap in complex disease, and how we can make those patterns easier to study and use.</p>
-    <h2>Lately, I've been thinking about:</h2>
+    <p>Lately, I've been thinking about:</p>
     <ul class="home-list">
       <li>psychiatric multimorbidity</li>
       <li>social science genomics</li>
@@ -36,7 +35,7 @@ redirect_from:
   </section>
 
   <section class="home-card home-reading">
-    <h2>What I’m reading</h2>
+    <p>What I’m reading</p>
     <!-- <p>The bookshelf below stays intentionally quiet so the page feels lighter and less widget-heavy.</p> -->
   </section>
 </div>

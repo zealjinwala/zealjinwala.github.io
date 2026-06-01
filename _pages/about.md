@@ -7,76 +7,50 @@ redirect_from:
   - /about.html
 ---
 
-I’m a Ph.D student in Computational and Systems Biology at Washington University in St. Louis.
+<div class="home-intro">
+  <p>I’m a Ph.D. student in Computational and Systems Biology at Washington University in St. Louis.</p>
 
-I study statistical and psychiatric genetics using global population data. 
+  <p>I study statistical and psychiatric genetics using global population data. I’m interested in questions at the intersection of mental health and precision medicine, especially how existing tools can better explain risk, treatment, and outcomes.</p>
+</div>
 
-I'm interested in questions at the intersection of mental health and precision medicine —how we can use existing tools to better understand risk, treatment, and outcomes.
+<div class="home-meta">
+  <span class="home-pill">Psychiatric genetics</span>
+  <span class="home-pill">Precision medicine</span>
+  <span class="home-pill">Population data</span>
+  <span class="home-pill">Decision support</span>
+</div>
 
-Lately, I've been thinking about: \\
-• psychiatric multimorbidity \\
-• social science genomics \\
-• environmental modulation of genetic risk \\
-• tools that help clinicians make better decisions \\
-• drug repurposing \\
-• sequencing, semiconductors, and the economics in between
+<div class="home-sections">
+  <section class="home-card">
+    <h2>Current focus</h2>
+    <p>I’m thinking about how genetic, social, and environmental factors overlap in complex disease, and how we can make those patterns easier to study and use.</p>
+  </section>
+
+  <section class="home-card">
+    <h2>Topics I keep circling back to</h2>
+    <ul class="home-list">
+      <li>psychiatric multimorbidity</li>
+      <li>social science genomics</li>
+      <li>environmental modulation of genetic risk</li>
+      <li>tools that help clinicians make better decisions</li>
+      <li>drug repurposing</li>
+      <li>sequencing, semiconductors, and the economics in between</li>
+    </ul>
+  </section>
+
+  <section class="home-card home-reading">
+    <h2>What I’m reading</h2>
+    <p>The bookshelf below stays intentionally quiet so the page feels lighter and less widget-heavy.</p>
+  </section>
+</div>
 
 <!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->
 
-<style type="text/css" media="screen">
-  .gr_custom_container_1773594412 {
-    /* customize your Goodreads widget container here*/
-    border: 1px solid gray;
-    border-radius:10px;
-    padding: 10px 5px 10px 5px;
-    background-color: #FFFFFF;
-    color: #000000;
-    width: 500px
-  }
-  .gr_custom_header_1773594412 {
-    /* customize your Goodreads header here*/
-    border-bottom: 1px solid gray;
-    width: 100%;
-    margin-bottom: 5px;
-    text-align: center;
-    font-size: 120%
-  }
-  .gr_custom_each_container_1773594412 {
-    /* customize each individual book container here */
-    width: 100%;
-    clear: both;
-    margin-bottom: 10px;
-    overflow: auto;
-    padding-bottom: 4px;
-    border-bottom: 1px solid #aaa;
-  }
-  .gr_custom_book_container_1773594412 {
-    /* customize your book covers here */
-    overflow: hidden;
-    height: 60px;
-      float: left;
-      margin-right: 4px;
-      width: 39px;
-  }
-  .gr_custom_author_1773594412 {
-    /* customize your author names here */
-    font-size: 10px;
-  }
-  .gr_custom_tags_1773594412 {
-    /* customize your tags here */
-    font-size: 10px;
-    color: gray;
-  }
-  .gr_custom_rating_1773594412 {
-    /* customize your rating stars here */
-    float: right;
-  }
-</style>
-
-<div id="gr_custom_widget_1773594412">
-  <div class="gr_custom_container_1773594412">
+<div class="home-widget">
+  <div id="gr_custom_widget_1773594412">
+    <div class="gr_custom_container_1773594412">
     <h2 class="gr_custom_header_1773594412">
-      <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/175590847-zeal-jinwala?shelf=read&amp;utm_medium=api&amp;utm_source=custom_widget">Zeal&#39;s bookshelf</a>
+      <a rel="nofollow" href="https://www.goodreads.com/review/list/175590847-zeal-jinwala?shelf=read&amp;utm_medium=api&amp;utm_source=custom_widget">Zeal&#39;s bookshelf</a>
     </h2>
     <div class="gr_custom_each_container_1773594412">
       <div class="gr_custom_book_container_1773594412">
@@ -156,5 +130,6 @@ Lately, I've been thinking about: \\
       Share <a rel="nofollow" href="https://www.goodreads.com/">book reviews</a> and ratings with Zeal, and even join a <a rel="nofollow" href="https://www.goodreads.com/group">book club</a> on Goodreads.
     </noscript>
   </div>
+</div>
 </div>
 <script src="https://www.goodreads.com/review/custom_widget/175590847.My%20bookshelf?cover_position=left&cover_size=small&num_books=5&order=a&shelf=read&show_author=1&show_cover=1&show_rating=1&show_review=1&show_tags=1&show_title=1&sort=date_added&widget_bg_color=FFFFFF&widget_bg_transparent=&widget_border_width=1&widget_id=1773594412&widget_text_color=000000&widget_title_size=medium&widget_width=wide" type="text/javascript" charset="utf-8"></script>

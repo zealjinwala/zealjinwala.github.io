@@ -4,8 +4,9 @@
 
 .masthead {
   position: fixed;
-  background: $body-color;
-  border-bottom: 1px solid $border-color;
+  background: rgba($background-color, 0.88);
+  border-bottom: 1px solid rgba($border-color, 0.8);
+  backdrop-filter: blur(12px);
   height: $masthead-height;
   top: 0;
   width: 100%;
@@ -19,7 +20,7 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em 1em;
+    padding: 1.1em 1em 1em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -32,6 +33,7 @@
 
     a {
       text-decoration: none;
+      letter-spacing: 0.01em;
     }
   }
 }
@@ -50,9 +52,13 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  font-size: $type-size-6;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 
   &--lg {
     padding-right: 3em;
     font-weight: 700;
+    letter-spacing: 0.12em;
   }
 }

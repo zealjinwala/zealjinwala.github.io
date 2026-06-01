@@ -20,8 +20,9 @@
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  background-color: $body-color;
-  border-top: 1px solid $border-color;
+  background: rgba($background-color, 0.92);
+  border-top: 1px solid rgba($border-color, 0.9);
+  backdrop-filter: blur(10px);
 
   footer {
     @include clearfix;
@@ -29,7 +30,7 @@
     margin-right: auto;
     margin-top: 2em;
     max-width: 100%;
-    padding: 0 1em 2em;
+    padding: 0 1em 2.2em;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -49,7 +50,7 @@
   .fab,
   .far,
   .fal {
-    color: $text-color;
+    color: $primary-color;
   }
 }
 

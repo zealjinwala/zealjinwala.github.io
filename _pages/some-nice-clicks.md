@@ -45,6 +45,16 @@ gallery:
     margin: 1.25rem 0;
   }
 
+  @media (min-width: 64em) {
+    .page__content figure.clicks-grid,
+    .page__content figure.clicks-grid.third,
+    .page__content figure.clicks-grid.half {
+      width: calc(100% + 8rem);
+      max-width: none;
+      margin-right: -8rem;
+    }
+  }
+
   .page__content figure.clicks-grid > a,
   .page__content figure.clicks-grid > img {
     display: block;

@@ -60,6 +60,12 @@
   font-size: $type-size-4;
 }
 
+.page__title {
+  @include breakpoint($large) {
+    display: none;
+  }
+}
+
 .page__content {
   --card-bg: rgba(22, 28, 37, 0.92);
   --card-border: rgba(120, 136, 155, 0.28);
@@ -128,6 +134,18 @@
     margin-bottom: 0.6rem;
     padding-bottom: 0;
     border-bottom: 0;
+    font-size: $type-size-5;
+    font-weight: normal;
+  }
+
+  .home-intro p,
+  .home-pill,
+  .home-card p,
+  .home-card li,
+  .home-widget p,
+  .home-widget li,
+  .home-widget a,
+  .home-card a {
     font-size: $type-size-5;
     font-weight: normal;
   }

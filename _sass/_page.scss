@@ -1,3 +1,26 @@
+/* Let photo galleries use more horizontal space on large screens while staying clear of the sidebar. */
+.page__content .gallery,
+.page__content .gallery-grid,
+.page__content .image-gallery {
+  width: 100%;
+  max-width: 72rem;
+}
+
+.page__content .gallery img,
+.page__content .gallery-grid img,
+.page__content .image-gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (min-width: 64em) {
+  .page__content .gallery,
+  .page__content .gallery-grid,
+  .page__content .image-gallery {
+    max-width: calc(100vw - 26rem);
+  }
+}
 /* ==========================================================================
    SINGLE PAGE/POST
    ========================================================================== */

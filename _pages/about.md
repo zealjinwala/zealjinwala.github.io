@@ -33,11 +33,6 @@ redirect_from:
       <li>sequencing, semiconductors, and the economics in between</li>
     </ul>
   </section>
-
-  <section class="home-card home-reading">
-    <p>What I’m reading</p>
-    <!-- <p>The bookshelf below stays intentionally quiet so the page feels lighter and less widget-heavy.</p> -->
-  </section>
 </div>
 
 <!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->

@@ -10,7 +10,7 @@ redirect_from:
 <div class="home-intro">
   <p>I’m a Ph.D. student in Computational and Systems Biology at Washington University in St. Louis.</p>
 
-  <p>I study statistical and psychiatric genetics using global population data. I’m interested in questions at the intersection of mental health and precision medicine, especially how existing tools can better explain risk, treatment, and outcomes.</p>
+  <p>I study statistical and psychiatric genetics. I’m interested in questions at the intersection of mental health and precision medicine, especially how existing tools can better explain risk, treatment, and outcomes.</p>
 </div>
 
 <div class="home-meta">
@@ -23,11 +23,11 @@ redirect_from:
 <div class="home-sections">
   <section class="home-card">
     <h2>Current focus</h2>
-    <p>I’m thinking about how genetic, social, and environmental factors overlap in complex disease, and how we can make those patterns easier to study and use.</p>
+    <p>I’m thinking about how genetic, social, and environmental structures overlap in complex disease, and how we can make those patterns easier to study and use.</p>
   </section>
 
   <section class="home-card">
-    <h2>Topics I keep circling back to</h2>
+    <h2>Lately, I've been thinking about:</h2>
     <ul class="home-list">
       <li>psychiatric multimorbidity</li>
       <li>social science genomics</li>
@@ -40,7 +40,7 @@ redirect_from:
 
   <section class="home-card home-reading">
     <h2>What I’m reading</h2>
-    <p>The bookshelf below stays intentionally quiet so the page feels lighter and less widget-heavy.</p>
+    <!-- <p>The bookshelf below stays intentionally quiet so the page feels lighter and less widget-heavy.</p> -->
   </section>
 </div>
 

@@ -190,10 +190,13 @@
 
     .gr_custom_each_container_1773594412 {
       display: grid;
-      grid-template-columns: 48px 1fr auto;
+      grid-template-columns: 48px minmax(0, 1fr) auto;
+      grid-template-areas:
+        "cover title rating"
+        "cover author rating";
       column-gap: 0.75rem;
       row-gap: 0.25rem;
-      align-items: start;
+      align-items: center;
       margin-bottom: 0.9rem;
       padding-bottom: 0.9rem;
       border-bottom: 1px solid var(--card-border);
@@ -210,6 +213,7 @@
       height: auto;
       float: none;
       margin-right: 0;
+      grid-area: cover;
     }
 
     .gr_custom_book_container_1773594412 img {
@@ -220,13 +224,23 @@
 
     .gr_custom_rating_1773594412 {
       float: none;
-      grid-column: 3;
+      grid-area: rating;
       justify-self: end;
     }
 
     .gr_custom_title_1773594412,
     .gr_custom_author_1773594412 {
-      grid-column: 2;
+      min-width: 0;
+    }
+
+    .gr_custom_title_1773594412 {
+      grid-area: title;
+      align-self: end;
+    }
+
+    .gr_custom_author_1773594412 {
+      grid-area: author;
+      align-self: start;
     }
 
     .gr_custom_title_1773594412 a {

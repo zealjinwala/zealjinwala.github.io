@@ -1,5 +1,5 @@
 ---
-title: "some nice clicks"
+title: "through my lens everywhere"
 permalink: /some-nice-clicks/
 author_profile: true
 gallery:

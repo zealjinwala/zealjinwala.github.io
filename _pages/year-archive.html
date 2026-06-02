@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 permalink: /thinkpad/
 title: ""
 author_profile: true
@@ -9,6 +9,30 @@ redirect_from:
 ---
 
 {% include base_path %}
+<style>
+  #main,
+  #main .page,
+  #main .page__inner-wrap,
+  #main .page__content {
+    background: transparent;
+  }
+
+  #main .sidebar {
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+  }
+
+  .archive__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .archive__list li {
+    margin: 0 0 0.75rem;
+  }
+</style>
 <ul class="archive__list">
 {% for post in site.posts %}
   <li>

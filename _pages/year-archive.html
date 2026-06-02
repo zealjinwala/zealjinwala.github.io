@@ -31,3 +31,12 @@ redirect_from:
     </ul>
   </section>
 </div>
+
+<div class="home-widget">
+  <h2>All posts</h2>
+  <ul class="home-list">
+    {% for post in site.posts %}
+    <li><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

@@ -1,7 +1,9 @@
 ---
 title: ""
-permalink: /some-nice-clicks/
+permalink: /through-my-lens/
 author_profile: true
+redirect_from:
+  - /some-nice-clicks/
 gallery:
   - image_path: clicks/camping_1.jpeg
     alt: "camping_1"

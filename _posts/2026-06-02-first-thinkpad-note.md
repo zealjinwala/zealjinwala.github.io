@@ -1,6 +1,6 @@
 ---
 title: "First ThinkPad Note"
-date: 2026-06-02
+date: 2026-05-28
 ---
 
 This is the first ThinkPad blog piece.

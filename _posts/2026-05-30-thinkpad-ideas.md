@@ -1,5 +1,5 @@
 ---
-title: "ThinkPad Ideas"
+title: "To PhD, or not to PhD"
 date: 2026-05-30
 ---
 

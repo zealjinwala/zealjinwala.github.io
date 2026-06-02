@@ -1,5 +1,5 @@
 ---
-title: "ThinkPad Setup Notes"
+title: "Finding art again"
 date: 2026-05-29
 ---
 

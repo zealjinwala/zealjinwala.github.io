@@ -1,46 +1,33 @@
 ---
 layout: single
 permalink: /thinkpad/
-title: ""
+title: "ThinkPad"
 author_profile: true
 redirect_from:
   - /year-archive/
   - /wordpress/blog-posts/
 ---
 
-{% include base_path %}
-<style>
-  #main,
-  #main .page,
-  #main .page__inner-wrap,
-  #main .page__content {
-    background: transparent;
-  }
+<div class="home-intro">
+  <p>ThinkPad is where I’m collecting short blog pieces.</p>
 
-  #main .sidebar {
-    background: transparent;
-    border-color: transparent;
-    box-shadow: none;
-  }
+  <p>Each title below opens the full post on its own page.</p>
+</div>
 
-  .archive__list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
+<div class="home-meta">
+  <span class="home-pill">Blog pieces</span>
+  <span class="home-pill">Notes</span>
+  <span class="home-pill">Writing</span>
+  <span class="home-pill">Updates</span>
+</div>
 
-  .archive__list li {
-    margin: 0 0 0.75rem;
-  }
-</style>
-<ul class="archive__list">
-{% for post in site.posts %}
-  <li>
-    <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-</ul>
-
-{% if site.posts.size == 0 %}
-  <p>No blog posts yet.</p>
-{% endif %}
+<div class="home-sections">
+  <section class="home-card home-focus">
+    <p>Current posts:</p>
+    <ul class="home-list">
+      {% for post in site.posts %}
+      <li><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>

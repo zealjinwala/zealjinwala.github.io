@@ -1,9 +1,8 @@
 ---
 title: "To PhD, or not to PhD"
 date: 2026-05-30
----
-
 published: false
+---
 
 Things I may write about here:
 

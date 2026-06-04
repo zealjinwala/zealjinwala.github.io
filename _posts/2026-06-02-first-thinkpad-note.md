@@ -1,6 +1,8 @@
 ---
 title: "One resilience: How I ended up here."
 date: 2026-06-04
+related: false
+show_date: false
 ---
 
 I learned early in college that there are forms of knowledge that exist outside the classroom. They live in passing comments from families who know how higher education works, in advice shared around dinner tables, and in the confidence that comes from already understanding the rules of a system before entering it. My parents did not go to college and began their lives in the real world almost straight out of high school, which is pretty common for that time and place in the community I am from. 

@@ -1,6 +1,6 @@
 ---
 title: "One resilience: How I ended up here."
-date: 2026-06-04
+date: 2026-06-03
 related: false
 show_date: false
 ---

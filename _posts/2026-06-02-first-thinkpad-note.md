@@ -1,5 +1,5 @@
 ---
-title: "One resilience: How I ended up here."
+title: "w"
 date: 2026-06-03
 related: false
 show_date: false
@@ -7,11 +7,11 @@ show_date: false
 
 I learned early in college that there are forms of knowledge that exist outside the classroom. They live in passing comments from families who know how higher education works, in advice shared around dinner tables, and in the confidence that comes from already understanding the rules of a system before entering it. My parents did not go to college and began their lives in the real world almost straight out of high school, which is pretty common for that time and place in the community I am from. 
 
-When I first arrived in college, I often felt like I had arrived somewhere important without the map everyone else seemed to have. I was always told that excelling at school should be my top priority if I want to claim my place, but I soon realized that for most people around me this notion was not their motto. 
+When I first arrived in college, I often felt like I was navigating something important without fully understanding the informal map many others already seemed to know. I was always told that excelling at school should be my top priority if I want to claim my place, but I soon realized that for most people around me this notion was not their motto. 
 
 I remember sitting in academic advising meetings during my first year, writing down terms I did not understand so I could look them up later in private. Office hours, networking, research opportunities, internships, these concepts were introduced as if they were obvious, as if everyone had inherited a working vocabulary for academia. I performed poorly in my first internship, despite doing quite well in my classes. What looked from the outside like confidence in my peers often felt, to me, like fluency in a language I had only just begun learning. 
 
-At the time, I interpreted confusion as evidence that I was behind. There were moments when I believed that struggling to understand the hidden curriculum of college meant I simply did not belong in it. It did not help my self-confidence that I was juggling 3 student jobs at the time to make ends meet while most of my classmates were already working towards their professional goals. My instinct became observation. I watched how others asked questions, how they spoke to professors, how they navigated uncertainty. I learned through imitation first and confidence second. 
+At the time, I interpreted confusion as evidence that I was behind. There were moments when I interpreted my struggle to understand the hidden curriculum of college as evidence that I did not belong in it. I was juggling three student jobs at the time to make ends meet, which left less room for early professional exploration compared to some of my classmates. My instinct became observation. I watched how others asked questions, how they spoke to professors, how they navigated uncertainty. I learned through imitation first and confidence second. 
 
 What I did not realize then was that this process of entering unfamiliar systems, identifying invisible rules, and slowly building fluency would become one of the defining patterns of my life.
 

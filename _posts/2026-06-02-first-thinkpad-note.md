@@ -1,5 +1,5 @@
 ---
-title: "w"
+title: "Notes on resilience"
 date: 2026-06-03
 related: false
 show_date: false
@@ -15,7 +15,7 @@ At the time, I interpreted confusion as evidence that I was behind. There were m
 
 What I did not realize then was that this process of entering unfamiliar systems, identifying invisible rules, and slowly building fluency would become one of the defining patterns of my life.
 
-Years later, now PhD student studying statistical and behavioral genetics, I spend much of my time thinking about complexity. A large part of my research work center around the idea that our constructs for understanding complex disease, especially psychiatric disease, rarely follow simple patterns. Genetic signals emerge from noise, associations are probabilistic rather than deterministic, and meaningful findings often require sitting with ambiguity for long periods before clarity emerges. This work has taught me that uncertainty is not a sign that something is wrong; it is often evidence that you are working at the edge of what is known. The same frameworks I use to study human behavior have given me language for experiences I once understood only as failure.
+Years later, now PhD student studying statistical and behavioral genetics, I spend much of my time thinking about complexity. A large part of my research work center around the idea that our constructs for understanding complex disease, especially psychiatric disease, rarely follow simple patterns. Genetic signals emerge from noise, associations are probabilistic rather than deterministic, and meaningful findings often require sitting with ambiguity for long periods before clarity emerges. This work has taught me that uncertainty is not a sign that something is wrong; it is often evidence that you are working at the edge of what is known. The same frameworks I use to study human behavior and complex disease have given me language for experiences I once understood only as failure.
 
 For me, this lesson does not stay confined to the lab.
 
